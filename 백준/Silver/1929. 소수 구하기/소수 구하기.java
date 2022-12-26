@@ -15,6 +15,7 @@ public class Main {
 		initPrime();
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuffer bs = new StringBuffer();
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int M = Integer.parseInt(st.nextToken());
@@ -22,9 +23,11 @@ public class Main {
 		
 		for(int i = M; i <=N; i++) {
 			if(prime[i]) {
-				System.out.println(i);
+				bs.append(i + "\n");
 			}
 		}
+		
+		System.out.println(bs);
 		
 	}
 	
