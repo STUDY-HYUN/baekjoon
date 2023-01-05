@@ -14,9 +14,7 @@ public class Main {
 	private static int MAX_NUM = 8;
 	private static int N, M;
 	private static int[] list = new int[MAX_NUM + 1];
-	private static int[] nums;
-	private static boolean[] visited = new boolean[MAX_NUM + 1];
-	
+	private static int[] nums;	
 	
 	public static void main(String[] args) throws IOException {
 		//N개의 자연수와 자연수 M이 주어졌을 때, 아래 조건을 만족하는 길이가 M인 수열을 모두 구하는 프로그램을 작성하시오. N개의 자연수는 모두 다른 수이다.
