@@ -41,7 +41,7 @@ public class Main {
 		
 		int i = arr.length - 1;
 		
-		// arr[i-1] < arr[i]를 만족하는 가장 큰 i를 찾음
+		// arr[i-1] > arr[i]를 만족하는 가장 큰 i를 찾음
 		// 뒤에서부터 찾아야 함
 		// 12453 --> i = 3 -> arr[3] 
 		while(i > 0 && arr[i-1] >= arr[i]) {
